@@ -1,19 +1,19 @@
-.App {
+.game-of-life {
   text-align: center;
 }
 
-.App-logo {
+.game-of-life-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .game-of-life-logo {
+    animation: game-of-life-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
+.game-of-life-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +24,27 @@
   color: white;
 }
 
-.App-link {
+.game-of-life-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes game-of-life-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+}
+
+.gol-button-group {
+  display: flex;
+  width: 100vh;
+  margin: 0 auto;
+}
+
+button {
+  padding: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
 }
